@@ -187,7 +187,7 @@ function ReviewsInteractive() {
 export default function AbelTutoringLanding() {
   // Contact details
   const email = "abellema943@gmail.com";
-  const phoneIntl = "+18253651202";
+  const phoneIntl = "+18253654836";
 
   // 1) Book Consultation (pre-filled Gmail compose)
   const consultBody = "Hi Abel,\n\nI would like a virtual consultation on {DAY} at {TIME}.\n\nThanks!";
