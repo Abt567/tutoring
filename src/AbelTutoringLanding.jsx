@@ -511,9 +511,9 @@ export default function AbelTutoringLanding() {
             className="grid md:grid-cols-3 gap-6"
           >
             {[
-              { name: "Starter", price: "$35/hr", points: ["1:1 online", "Weekly recap", "Homework help"] },
-              { name: "Pro", price: "$45/hr", badge: "Most popular", points: ["1:1 online or in-person", "Custom study plan", "Mock test each unit"] },
-              { name: "Elite", price: "$60/hr", points: ["Founder-led coaching", "Priority scheduling", "Exam bootcamp included"] },
+              { name: "Starter", price: "$20/hr", points: ["1:1 online", "Weekly recap", "Homework help"] },
+              { name: "Pro", price: "$25/hr", badge: "Most popular", points: ["1:1 online or in-person", "Custom study plan", "Mock test each unit"] },
+              { name: "Elite", price: "$35/hr", points: ["Founder-led coaching", "Priority scheduling", "Exam bootcamp included"] },
             ].map((p) => (
               <motion.div key={p.name} variants={pricingItem}>
                 <Card className={`${palette.card} ${palette.ring} rounded-3xl`}>
